@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul design</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="resources/img/paul.png" type="image/x-icon">
+    <!-- UIKIT -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.21/dist/css/uikit.min.css">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responcive.css">
+</head>
+<body>
+
+    <!-- START HEADER SECTION -->
+    <header id="hero">
+        <!-- NAVIGATION -->
+        <nav class="clearfix" data-uk-sticky="start: 400; animation: uk-animation-slide-top">
+            <div class="container">
+                <div class="logo">
+                    <a href="#hero">
+                        <img src="resources/img/paul.png" alt="paul">
+                    </a>
+                </div>
+                <div class="menu" onclick="openMenu()">
+                    <a href="javascript:void(0)" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#fff" class="bi bi-list nav-icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="menu-container" id="navber" onclick="closeMenu()">
+                <a href="javascript:void(0)">
+                    <div class="close-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff" class="bi bi-x-square" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                </a>
+                <div class="menu-item">
+                    <ul>
+                        <li><a href="#hero" onclick="closeMenu()">Home</a></li>
+                        <li><a href="#about" onclick="closeMenu()">about</a></li>
+                        <li><a href="#process" onclick="closeMenu()">process</a></li>
+                        <li><a href="#exprience" onclick="closeMenu()">experience</a></li>
+                        <li><a href="#work" onclick="closeMenu()">portfolio</a></li>
+                        <li><a href="#testimonial" onclick="closeMenu()">testimonial</a></li>
+                        <li><a href="#contact" onclick="closeMenu()">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-contain-area">
+            <div class="container">
+                <div class="hero-content">
+                    <div data-uk-scrollspy="cls: uk-animation-shake; repeat: true">
+                        <h1>Paul Lapkin</h1><br>
+                        <span>#User Experience  #Music  #Creative Direction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next-section">
+            <div class="container">
+                <a href="#about">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"/>
+                        <path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
+                      </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+<!-- END HEADER SECTION -->
+
+<!-- START ABOUT SECTION -->
+<section id="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-grid-column">
+                <img src="resources/img/paul.jpg" alt="Paul">
+            </div>
+            <div class="about-grid-column">
+                <h4>Hi, i'm Paul Lapkin, Experience Crafter from Canada.</h4>
+                <p class="about-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.<br><br>Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
+                <div class="about-cta-btn">
+                    <a href="#"  class="btn btn-full">hire me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- END ABOUT SECTION -->
+
+<!-- START PROCESS SECTION -->
+
+<section id="process">
+    <div class="container">
+        <div class="section-title">
+            <h2>My Working Process</h2>
+            <span>Hi, i'm Paul Lapkin, Experience Crafter from Canada.</span>
+        </div>
+        <div class="process-grid">
+            <div class="process-grid-column">
+                <img src="resources/img/design-icon.png" alt="DESIGN-ICON">
+                <h4>design</h4>
+            </div>
+            <div class="process-grid-column">
+                <img src="resources/img/devlopment-icon.png" alt="DEVLOPMENTG-ICON">
+                <h4>design</h4>
+            </div>
+            <div class="process-grid-column">
+                <img src="resources/img/testing-icon.png" alt="TESTING-ICON">
+                <h4>design</h4>
+            </div>
+            <div class="process-grid-column">
+                <img src="resources/img/lounch-icon.png" alt="LOUNCH-ICON">
+                <h4>design</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- END PROCESS SECTION -->
+
+<!-- START EXPRIENCE SECTION -->
+
+    <section id="exprience">
+        <div class="container">
+            <div class="exprience-grid">
+                <div class="exp-grid-item">
+                    <h3>Work Experience</h3>
+                    <div class="job">
+                        <h4>Mad Max Design</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Crazy Design</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+                <div class="exp-grid-item">
+                    <h3>Education</h3>
+                    <div class="job">
+                        <h4>Maddison University</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Max Design & Art Institute</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- END EXPRIENCE SECTION -->
+
+<!-- START WORK SECTION -->
+
+<section id="work">
+    <div class="container">
+        <div class="section-title">
+            <h2>My Latest Works</h2>
+            <span>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</span>
+        </div>
+        <div class="portfolio-filter">
+            <button type="button" data-filter = "all">all</button>
+            <button type="button" data-filter = ".web-design">web design</button>
+            <button type="button" data-filter = ".web-development">web development</button>
+            <button type="button" data-filter = ".wordpress">wordpress</button>
+        </div>
+        <div class="work-grid">
+            <div class="work-grid-item mix web-design ">
+                <a href="resources/img/lw1.jpg">
+                    <img src="resources/img/lw1.jpg" alt="work-img-1">
+                </a>
+            </div>
+            <div class="work-grid-item mix web-development">
+                <a href="resources/img/lw2.jpg">
+                    <img src="resources/img/lw2.jpg" alt="work-img-2">
+                </a>
+            </div>
+            <div class="work-grid-item mix wordpress">
+                <a href="resources/img/lw3.jpg">
+                    <img src="resources/img/lw3.jpg" alt="work-img-3">
+                </a>
+            </div>
+            <div class="work-grid-item mix web-design ">
+                <a href="resources/img/lw4.jpg">
+                    <img src="resources/img/lw4.jpg" alt="work-img-4">
+                </a>
+            </div>
+            <div class="work-grid-item mix wordpress">
+                <a href="resources/img/lw5.jpg">
+                    <img src="resources/img/lw5.jpg" alt="work-img-5">
+                </a>
+            </div>
+            <div class="work-grid-item mix web-development">
+                <a href="resources/img/lw6.jpg">
+                    <img src="resources/img/lw6.jpg" alt="work-img-6">
+                </a>
+            </div>
+            <div class="work-grid-item mix wordpress">
+                <a href="resources/img/lw7.jpg">
+                    <img src="resources/img/lw7.jpg" alt="work-img-7">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- END WORK SECTION -->
+
+<!-- START TESTIMONIAL SECTION -->
+
+<section id="testimonial">
+    <div class="container">
+        <div class="testimonial-grid">
+            <div class="testimonial-grid-item">
+                <div class="quote">
+                    <img src="resources/img/quote.png" alt="QUOTE">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                <div class="sign"><img src="resources/img/signature.png" alt="SIGNATURE"></div>
+                <h4>Deniel Croft</h4>
+                <span>Creative Designer, Levy</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- END TESTIMONIAL SECTION -->
+
+<!-- START CONTACT SECTION -->
+
+<section id="contact">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-grid-item">
+                <h3>Leave a message</h3>
+                <form action="#" method="post">
+                    <div class="single-form"><input type="text" placeholder="Name*" required></div>
+                    <div class="single-form"><input type="email" placeholder="Email*" required></div>
+                    <div class="single-form"><input type="text" placeholder="Subject*" required></div>
+                    <div class="single-form"><textarea cols="30" rows="10" placeholder="Message*" required></textarea></div>
+                    <div class="form-btn">
+                        <button class="single-form-btn btn btn-full">Hire Me!</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-grid-item side-item">
+                <div class="side-contact-grid-item">
+                    <h3>Address</h3>
+                    <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                </div>
+                <div class="side-contact-grid-item">
+                    <h3>Phone</h3>
+                    <p>+880 174 037 6995 <br>
+                        +880 191 448 6969</p>
+                </div>
+                <div class="side-contact-grid-item">
+                    <h3>Web</h3>
+                    <p>Mail: quicksayed@gmail.com <br>
+                        Website: dribbble.com/alisayed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- START CONTACT SECTION -->
+
+<!-- START FOOTER SECTION -->
+
+<footer>
+    <div class="raw">
+        <div class="social-link">
+            <ul>
+                <li><a href="#"><i class="icon fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="icon fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="icon fa-solid fa-basketball"></i></a></li>
+                <li><a href="#"><i class="icon fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="copyright"> &#169;Copyright: <a href="https://www.facebook.com/neamul.karim.35/">Neamul</a> | All Rights Reserved.</div>
+    </div>
+    <div class="top-arrow">
+        <a href="#hero"><i class="fa-solid fa-angles-up to-top"></i>
+        </a>
+    </div>
+</footer>
+
+<!-- START FOOTER SECTION -->
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/9ad7beacbb.js" crossorigin="anonymous"></script>
+    <!-- <script src="vendors/js/jquery.waypoints.min.js"></script> -->
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.21/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.21/dist/js/uikit-icons.min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+</html>
